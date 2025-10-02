@@ -1,0 +1,58 @@
+body{
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  display: inline-block;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  font-size: 24px;
+  color: grey;
+  margin-right: 25px;
+
+}
+
+h1{
+  display: inline-block;
+  margin: 0px 40px 0px 40px;
+}
+
+img{
+  width: 80%;
+  height: 80%;
+}
+
+nav{
+  display: inline-block;
+}
+
+.card{
+  width: 45%;
+  padding: 20px;
+  display: inline-block;
+}
+
+.tekst{
+  max-width: 40%;
+  margin: 0 20% 0 20%;
+  font-size: 30px;
+}
+
+#active{
+  border-bottom: 1px solid black;
+}
+
+#onderlijn{
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  display: inline-block;
+}

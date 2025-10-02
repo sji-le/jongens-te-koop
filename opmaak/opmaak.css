@@ -1,8 +1,17 @@
 body{
-  font-family: "Cormorant", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Commonant", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url("../afbeeldingen/cotton.jpg");
+    background-size: cover;        /* Ensures image covers entire screen */
+    background-repeat: no-repeat;  /* Prevents tiling */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed;  /* Prevents scrolling artifacts */
+    
+    /* Optional: Improve rendering */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
 }
 
 ul{
